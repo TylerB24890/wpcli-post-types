@@ -84,5 +84,5 @@ class Handler {
 }
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
-	\WP_CLI::add_command( 'tyb', \TyB\CLI::class );
+	\WP_CLI::add_command( 'tyb', \TyB\CLI\Handler::class );
 }
